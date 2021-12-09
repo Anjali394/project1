@@ -1,10 +1,14 @@
 import './App.css';
-import Welcome from './components/Welcome.js'
+import NameList from './components/NameList';
+import UserGreeting from './components/UserGreeting';
+// import Welcome from './components/Welcome.js'
 
 function App() {
   return (
     <div className="App">
-        <Welcome></Welcome>
+        {/* <Welcome></Welcome> */}
+        <UserGreeting/>
+        <NameList/>
     </div>
   );
 }
