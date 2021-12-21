@@ -1,16 +1,16 @@
+import { Component } from 'react';
 import './App.css';
-import NameList from './components/NameList';
-import UserGreeting from './components/UserGreeting';
-// import Welcome from './components/Welcome.js'
 
-function App() {
-  return (
-    <div className="App">
-        {/* <Welcome></Welcome> */}
-        <UserGreeting/>
-        <NameList/>
-    </div>
-  );
+import Form from './Form';
+
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Form/>
+      </div>
+    )
+  }
 }
 
 export default App;
